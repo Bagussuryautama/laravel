@@ -79,12 +79,10 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    WEB 2
+                    Isi Pesan
                 </div>
-
-                <div class="links">
-                    <a href="pesan">Pesan</a>
-                    <a href="about">About</a>
+                <div>
+                    <p><?php echo $_POST['pesan'] ?></p>    
                 </div>
             </div>
         </div>

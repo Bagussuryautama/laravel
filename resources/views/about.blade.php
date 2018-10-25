@@ -79,12 +79,11 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    WEB 2
+                    About
                 </div>
-
-                <div class="links">
-                    <a href="pesan">Pesan</a>
-                    <a href="about">About</a>
+                <div>
+                    <p>Halaman About</p>
+                    <a href="/">Home</a>
                 </div>
             </div>
         </div>

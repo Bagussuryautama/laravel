@@ -79,12 +79,13 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    WEB 2
+                    Pesan
                 </div>
-
-                <div class="links">
-                    <a href="pesan">Pesan</a>
-                    <a href="about">About</a>
+                {!! Form::open(array('url' => 'pesan/kirim','method'=>'POST')) !!}
+                <div>
+                    <strong>Halaman Pesan</strong>
+                    {!! Form::text('pesan', null, array('placeholder' => 'Tuliskan pesan','class' => 'form-control')) !!}
+                    <button type="submit" class="btn btn-primary">Kirim</button>
                 </div>
             </div>
         </div>
