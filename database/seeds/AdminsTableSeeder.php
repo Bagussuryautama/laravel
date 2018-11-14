@@ -28,12 +28,12 @@ class AdminsTableSeeder extends Seeder
             ]);*/
 
             //Use Eloquent v2
-            /*\App\Admin::create([
-                'name'	=> 'bagus',
-                'email'	=> 'bagus@gmail.com',
+            \App\Admin::create([
+                'name'	=> 'Bagus',
+                'email'	=> 'b.surya@mail.ugm.ac.id',
                 'job_title' => 'staf',
                 'password'	=> bcrypt('secret')
-            ]);*/
+            ]);
 
             //Use Model sqlite_factories
             //factory(\App\Admin::class, 5)->create();
